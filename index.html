@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Bebas+Neue&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/pages/index/index.css">
+    <title>Avaliando Filmes</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="titulo">Validando Filmes e Series</h1>
+            <img id="foto-perfil" src="https://wallpapers.com/images/featured/computador-cat-6m34mud9qso5xil8.jpg" alt="foto">
+        </header>
+        <div id="modal">
+            <div id="modal-content">
+                <p>Selecione uma nova foto de perfil:</p>
+                <input type="file" id="upload" accept="image/*"><br>
+                <img id="preview" src="" alt="Pré-visualização"><br>
+                <button onclick="salvarFoto()">Salvar</button>
+                <button onclick="fecharModal()">Cancelar</button>
+            </div>
+        </div>
+        <div class="main">
+            <aside class="aside">
+            <h3 class="titulo">Categorias</h3>
+            <nav>
+                <a class="item" href="#">Todos</a>
+                <a class="item" href="#">Terror</a>
+                <a class="item" href="#">Ficção</a>
+                <a class="item" href="#">Romance</a>
+                <a class="item" href="#">Suspense</a>
+            </nav>
+        </aside>
+        <section>
+            <article class="conteudo">
+                <img onclick="abrirAnabele()" id="anabele" class="filme" src="https://uauposters.com.br/media/catalog/product/cache/1/small_image/333x500/9df78eab33525d08d6e5fb8d27136e95/7/7/770020150308-uau-posters-filmes-terror-annabelle.jpg" alt="Ana Bele">
+                <img class="filme" src="https://br.web.img2.acsta.net/pictures/210/166/21016629_2013062820083878.jpg" alt="">
+                <img class="filme" src="https://br.web.img3.acsta.net/pictures/22/09/20/15/51/1507365.jpg" alt="">
+                <img class="filme" src="https://br.web.img3.acsta.net/img/ef/d3/efd3cc219ec876e4599b8975908e5ee4.jpg" alt="">
+                <img class="filme" src="https://br.web.img3.acsta.net/c_310_420/pictures/19/02/07/14/16/5034340.jpg" alt="">
+
+                <img class="filme" src="https://br.web.img2.acsta.net/medias/nmedia/18/91/31/38/20277419.jpg" alt="Ana Bele">
+                <img class="filme" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQU9yyNXdSeldlGfMTsKD2-tT6ZNBT9h2rdO7zhrsxQR3YkEHiF" alt="">
+                <img class="filme" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7V1pt1JbICegjbcDYn9D8J7fBczugRRsXaCcLQY_oyf2eVYkY" alt="">
+                <img class="filme" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT8wNRFBYdONJgR94qTgmBKpPjbDYgHiJRjE4dImgRKWO1n1vqI" alt="">
+                <img class="filme" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS64MQjQg496AMli5m1k6-JBNaZdSDcRXjL2NBr3_bpVfwCOfQX" alt="">
+                
+                <img class="filme" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHNm88XQjdyvA6XVNCNzzB6IQM0oNiZ-_hpL3NBbfet7dqOWzF" alt="Ana Bele">
+                <img class="filme" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTe3Eup6X41l8_4IlIGwkWqLLi7jPE7oOCYdqaeTPhcdmYnFdd" alt="">
+                <img class="filme" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQOqzahAUv43KOUaDSKTBdDfexVzF2a58aI5EgizTlWIfYZT65x" alt="">
+                <img class="filme" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTJ0XfuAwwsXvOAAo59Fdrkr56RJzQMkkL0kFMEIXciRQE_-g3b" alt="">
+                <img class="filme" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTsqgJZEYevXuSxrWF8ovNAbzab7uxTzcE9eaMb6ppWTXL3vEVt" alt="">
+                
+                <img class="filme" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRB6hcDB3u8PZsRafyFsdOYdo7LUoy84J9z-2rDCuonmh07qhvp" alt="Ana Bele">
+                <img class="filme" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTJShOoZOFNYMDQHA9ISIZUeBe2srLSHle-IMrKzHt3pcbuOv2h" alt="">
+                <img class="filme" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcT03REIMNHBYDm9y5VSAsydo5_otPiXOjv795HgaUwZkI-n_Fdu" alt="">
+                <img class="filme" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRY1Ax-abb1Wl_sYMI0-24ffFZrENE58Pt0vOQ0PQ9TLttZLvIB" alt="">
+                <img class="filme" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTB_vsX9ViDR5aKt5XxSSPwQO0wf9f29GG5o-Y76Xozumr59XVm" alt="">
+                
+                <img class="filme" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSOvohXtgT5pPP246hi2cgsZ73Isoine4DcrQ0Fwq6u2ih6z1BT" alt="Ana Bele">
+                <img class="filme" src="https://br.web.img3.acsta.net/pictures/21/07/07/16/37/0992833.jpg" alt="">
+                <img class="filme" src="https://br.web.img2.acsta.net/pictures/21/07/14/16/08/3726160.jpg" alt="">
+                <img class="filme" src="https://br.web.img3.acsta.net/pictures/210/335/21033500_20130830193413918.jpg" alt="">
+                <img class="filme" src="https://br.web.img3.acsta.net/c_310_420/pictures/19/02/07/14/16/5034340.jpg" alt="">
+                
+            </article>
+        </section>
+
+        </div>
+    </div>
+    <script src="/src/js/script.js"></script>
+</body>
+</html>

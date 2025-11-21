@@ -1,0 +1,23 @@
+a{
+    text-decoration-line: none;
+    color: #F5F5F5;
+    margin-top: 10%;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.item:nth-child(1):hover{
+    color: #D72638;
+}
+.item:nth-child(2):hover{
+    color: #c94b57;
+}
+.item:nth-child(3):hover{
+    color: #f1909a;
+}
+.item:nth-child(4):hover{
+    color:  #c94b57;
+}
+.item:nth-child(5):hover{
+    color:  #D72638;
+}
