@@ -1,11 +1,11 @@
-@import '/src/css/global.css';
-@import '/src/pages/index/partials/aside.css';
-@import '/src/pages/index/partials/container.css';
-@import '/src/pages/index/partials/header.css';
-@import '/src/pages/index/partials/a.css';
-@import '/src/css/fonts.css';
-@import '/src/pages/index/partials/nav.css';
-@import '/src/pages/index/partials/perfil.css';
+@import './src/css/global.css';
+@import './src/pages/index/partials/aside.css';
+@import './src/pages/index/partials/container.css';
+@import './src/pages/index/partials/header.css';
+@import './src/pages/index/partials/a.css';
+@import './src/css/fonts.css';
+@import './src/pages/index/partials/nav.css';
+@import './src/pages/index/partials/perfil.css';
 
 .main {
   display: flex;
