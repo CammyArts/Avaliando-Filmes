@@ -43,7 +43,7 @@ function abrirAnabele(){
   // Adiciona o evento de clique
   botao.addEventListener('click', function () {
     // Abre nova aba com a URL desejada
-    window.open('./src/pages/filmes/anabele/anabele.html', '_blank');
+    window.open('/src/pages/filmes/anabele/anabele.html', '_blank');
   });
 }
 
